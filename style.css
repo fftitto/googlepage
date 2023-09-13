@@ -1,0 +1,103 @@
+*{
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: darkslategrey;
+}
+
+body {
+    overflow-y: hidden;
+}
+
+ul li {
+    list-style: none;
+    color: azure;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: end;
+    text-align: center;
+    list-style: none;
+}
+
+.top-menu {
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    margin-right: 30px;
+    gap: 20px;
+}
+
+.apps {
+    height: 20px; width: 20px;
+}
+
+.pug {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    width: 40px; height: 40px;
+}
+
+.imagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 180px;
+}
+
+.logo {
+    height: 110px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.search-container {
+    background-color: white;
+    border-radius: 40px;
+    margin: 480px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    border: none;
+}
+
+#search-input {
+    padding: 10px;
+    width: 400px;
+    margin-right: 60px;
+    border:none;
+    border-radius: 20px;
+    font-size: 16px;
+    background-color: white;
+}
+
+.lupa {
+    height: 20px; width: 30px;
+    margin-left: 10px;
+    background-color: white;
+}
+
+.micro {
+    margin-right: 20px;
+    background-color: white;
+    height: 20; width: 20px;
+}
+
+textarea:focus, input:focus, select:focus {
+    box-shadow: 0 0 0 0;
+    border: 0 none;
+    outline: 0;
+} 
+
+ul li:hover {
+    text-decoration:underline;
+}
